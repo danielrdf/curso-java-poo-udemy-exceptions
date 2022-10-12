@@ -41,6 +41,7 @@ public class Program {
 				System.out.println("Error in reservation: " + error);
 			}
 			else {
+				System.out.println(error); // APAGAR ************************************
 				System.out.print("Reservation: " + reservation);
 			}
 			
